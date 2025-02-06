@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(57, 62, 70);
+}
+
+h1 {
+    color: rgb(78, 204, 163);
+    font-size: 8rem;
+    padding: 0px;
+    margin: 50px;
+}
+
+p {
+    color: rgb(78, 204, 163);
+    font-size: 3rem;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 10px 5px 5px black;
+}
+
+.chicle-regular {
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+  
+#myNameFooter {
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-grid-1 {
+    display: grid;
+    grid-template-rows: 50px 300px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
