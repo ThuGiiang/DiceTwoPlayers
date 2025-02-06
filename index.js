@@ -18,10 +18,4 @@ function rollDice(){
     }
 }
 
-const delay = ms => new Promise(res => setTimeout(res, ms));
-
-const yourFunction = async () => {
-    await delay(5000);
-    rollDice();
-  };
-  
+rollDice();
